@@ -145,6 +145,7 @@ button:active {
 
   .hnav {
     padding: 0px;
+    height: 15vh;
   }
 
   .item-img {
