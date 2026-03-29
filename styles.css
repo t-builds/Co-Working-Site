@@ -1,0 +1,173 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  margin: 0px;
+  padding: 0px 5%;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+.hnav {
+  margin: 0px;
+  padding: 0px 11%;
+  height: 20vh;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+
+main {
+  margin-left: 15%;
+}
+
+.logo {
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+
+.icon {
+  background-size: cover;
+  width: 70%;
+}
+
+.icn {
+  background-size: cover;
+  width: 50%;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
+.htxt {
+  font-size: 5rem;
+  margin: 4% 0px;
+  padding-right: 15%;
+}
+
+.item-img {
+  background-size: cover;
+  width: 80%;
+}
+
+.caption {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  align-items: center;
+  font-size: 3rem;
+  padding-right: 17%;
+}
+
+button {
+  font-weight: bolder;
+  text-shadow: 0px 0px 2px black;
+  color: whitesmoke;
+  background-color: #cd6858;
+  border: none;
+  font-size: 2rem;
+  margin-right: 5%;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+button:active {
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
+.item {
+  position: relative;
+}
+
+.banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 1% 1%;
+  font-size: xx-large;
+  color: whitesmoke;
+  background-color: #cd6858;
+}
+
+.chatbox-bg {
+  position: fixed;
+  bottom: 0;
+  right: 16.5%;
+  display: flex;
+  background-color: #dda15e;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.chatbox-img {
+  margin: auto;
+  width: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .caption {
+    font-size: 1.5rem;
+    padding: 0px;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+
+  .htxt {
+    font-size: 2.5rem;
+    padding: 0px;
+  }
+
+  main {
+    margin: 0px;
+    padding: 0px 5%;
+  }
+
+  .hnav {
+    padding: 0px;
+  }
+
+  .item-img {
+    background-size: cover;
+    width: 100%;
+  }
+
+  .icon {
+    width: 50%;
+  }
+
+  .icn {
+    width: 35%;
+  }
+
+  .banner {
+    font-size: larger;
+  }
+
+  .chatbox-bg {
+    bottom: 6px;
+    right: 7px;
+    width: 50px;
+    height: 50px;
+  }
+}
